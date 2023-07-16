@@ -372,8 +372,8 @@ jobs:
 #           files: |
 #             rustdesk*-${{ matrix.job.arch }}.dmg
 
-  build-vcpkg-deps-linux:
-    uses: ./.github/workflows/vcpkg-deps-linux.yml
+#   build-vcpkg-deps-linux:
+#     uses: ./.github/workflows/vcpkg-deps-linux.yml
 
   generate-bridge-linux:
     uses: ./.github/workflows/bridge.yml
